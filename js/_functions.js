@@ -11,7 +11,7 @@ function drawBall() {
 function drawPaddle() {
     ctx.beginPath();
     ctx.rect(paddleX, canvas.height - paddleHeight, paddleWidth, paddleHeight);
-    ctx.fillStyle = "red";
+    ctx.fillStyle = paddleColor;
     ctx.fill();
     ctx.closePath();
 }
@@ -58,7 +58,7 @@ function drawBricks() {
                 bricks[c][r].y = brickY;
                 ctx.beginPath();
                 ctx.rect(brickX, brickY, brickWidth, brickHeight);
-                ctx.fillStyle = "#0095DD";
+                ctx.fillStyle = brickColor;
                 ctx.fill();
                 ctx.closePath();
             }
@@ -89,14 +89,14 @@ function collisionDetection() {
 // draw score on canva
 function drawScore() {
     ctx.font = "16px Arial";
-    ctx.fillStyle = "#0095DD";
+    ctx.fillStyle = textColor;
     ctx.fillText("Score: " + score, 8, 20);
 }
 
 // draw lives on canva
 function drawLives() {
     ctx.font = "16px Arial";
-    ctx.fillStyle = "#0095DD";
+    ctx.fillStyle = textColor;
     ctx.fillText("Lives: " + lives, canvas.width - 65, 20);
 }
 

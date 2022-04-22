@@ -12,7 +12,6 @@ var dy = -2;
 
 // ball dimensions and color
 var ballRadius = 10;
-var ballColor = "#344966";
 
 // paddle dimensions and initial position on canva
 var paddleHeight = 10;
@@ -44,3 +43,9 @@ for (var c = 0; c < brickColumnCount; c++) {
 // score and live count
 var score = 0;
 var lives = 3;
+
+// colors
+var textColor = "#66666E";
+var brickColor = "#F0A202";
+var paddleColor = "#DD1C1A";
+var ballColor = "#DD1C1A";
