@@ -2,6 +2,8 @@
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
+var alertDiv = document.getElementById("alert");
+
 // initial position of ball on canva
 var x = canvas.width / 2;
 var y = canvas.height - 30;
