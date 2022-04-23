@@ -7,6 +7,10 @@ The principle of the game is:
 - he must destroy all the bricks while avoiding that the ball touches the lower part of the playing arena with the racket,
 - if all the bricks are destroyed, he wins, otherwise he loses and can restart the game.
 
+## Demo
+
+Find a demo [Here](https://vanotis720.github.io/2d-breakout-game-pure-javascript/)
+
 ## Installation and Usage
 
 Being a pure JavaScript project, no installation is required. To start a game just clone this repository like this
